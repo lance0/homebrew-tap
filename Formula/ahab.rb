@@ -1,7 +1,7 @@
 class Ahab < Formula
   desc "Interactive Docker cleanup TUI - hunt down and harpoon unused resources"
   homepage "https://github.com/lance0/ahab"
-  version "0.3.3"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
