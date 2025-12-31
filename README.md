@@ -20,3 +20,4 @@ brew install lance0/tap/ahab
 | Formula | Description |
 |---------|-------------|
 | [ahab](https://github.com/lance0/ahab) | Interactive Docker cleanup TUI |
+| [kaioken](https://github.com/lance0/kaioken) | High-performance HTTP load testing tool with real-time TUI |
