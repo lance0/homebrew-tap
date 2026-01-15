@@ -2,6 +2,12 @@
 
 Custom Homebrew formulas for lance0 tools.
 
+## ttl
+
+Modern traceroute/mtr-style TUI with hop stats and ASN/geo enrichment.
+
+![ttl screenshot](https://raw.githubusercontent.com/lance0/ttl/master/ttlss.png)
+
 ## Installation
 
 ```bash
