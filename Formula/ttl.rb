@@ -1,24 +1,24 @@
 class Ttl < Formula
   desc "Modern traceroute/mtr-style TUI with hop stats and ASN/geo enrichment"
   homepage "https://github.com/lance0/ttl"
-  version "0.11.3"
+  version "0.11.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/lance0/ttl/releases/download/v#{version}/ttl-aarch64-apple-darwin.tar.gz"
-      sha256 "7148a28bf830b1a1b309bd77a02a62def5aa5885e9915e8d365ce6fd2df1c3ba"
+      sha256 "f627eaca0bea3cd8f75f585dcb4c45dca392224fee6a34b04a6d839f445e3902"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lance0/ttl/releases/download/v#{version}/ttl-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b59b3585e3fe267a5555ada4a002dadc06ba1d1cfb0ea8c047986b279c80cee8"
+      sha256 "bb1cb881dcb1e8bdb3529defb064c105fc28e9ff91d2b0ebfca7c6dd04d91ee6"
     end
     on_arm do
       url "https://github.com/lance0/ttl/releases/download/v#{version}/ttl-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "23cf05cd8f80f531a3bf00344e645024e83cad64506992c351d9f604e2559909"
+      sha256 "49d6edc87d432ab1e319548da50c63ca4c7723ba587e1701413abdcd61ff333a"
     end
   end
 
