@@ -2,20 +2,21 @@
 
 Custom Homebrew formulas for lance0 tools.
 
-## ttl
-
-Modern traceroute/mtr-style TUI with hop stats and ASN/geo enrichment.
-
-![ttl screenshot](https://raw.githubusercontent.com/lance0/ttl/master/ttlss.png)
-
 ## Installation
 
 ```bash
 brew tap lance0/tap
-brew install ttl
 ```
 
-Or directly:
+Then install any formula:
+
+```bash
+brew install ttl
+brew install ahab
+brew install kaioken
+```
+
+Or install directly without tapping:
 
 ```bash
 brew install lance0/tap/ttl
