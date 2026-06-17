@@ -15,6 +15,7 @@ brew install ttl
 brew install xfr
 brew install ahab
 brew install kaioken
+brew install nbox
 ```
 
 Or install directly without tapping:
@@ -31,3 +32,4 @@ brew install lance0/tap/ttl
 | [xfr](https://github.com/lance0/xfr) | Modern network bandwidth testing with TUI, multi-client server, and QUIC |
 | [ahab](https://github.com/lance0/ahab) | Interactive Docker cleanup TUI |
 | [kaioken](https://github.com/lance0/kaioken) | High-performance HTTP load testing tool with real-time TUI |
+| [nbox](https://github.com/lance0/nbox) | Terminal UI, CLI, and MCP server for NetBox — search, IPAM lookups, device context |
