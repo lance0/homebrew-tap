@@ -4,28 +4,28 @@
 class Nbox < Formula
   desc "Terminal UI and CLI for NetBox"
   homepage "https://github.com/lance0/nbox"
-  version "0.7.1"
+  version "0.7.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/lance0/nbox/releases/download/v#{version}/nbox-aarch64-apple-darwin.tar.gz"
-      sha256 "cf579790193e5ab92cef7d2bc834f9225693fce110065cd5eb2330d265f87a42"
+      sha256 "437e0fc0c9faa2b12642e680c81b606cbe3544f8f71da7124c45c61424ef12e5"
     end
     on_intel do
       url "https://github.com/lance0/nbox/releases/download/v#{version}/nbox-x86_64-apple-darwin.tar.gz"
-      sha256 "e285344dcf6b0eb1ce7372bc6e08cddd2cff7bea4e30c5fd94caf0242a6b9159"
+      sha256 "8a67fa078351d06437a98422a3777ce2466d789cbf59984e346aec928e29a238"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lance0/nbox/releases/download/v#{version}/nbox-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "eb36236302dcab81b3304cb80f0da469fb5ec233351041ed53bfd40cdfa7eb93"
+      sha256 "6e51419f52913a6add6979ae597342152e02b1c8034c271b0be045a0981c3498"
     end
     on_intel do
       url "https://github.com/lance0/nbox/releases/download/v#{version}/nbox-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "018520910de069bc654d5364eac481482bd4a7138b7cfe1c17d416336b5c864a"
+      sha256 "794d9702db61bb6f0e91582b21cf41e9e07671e9223d0fc6abb5b05131c58eec"
     end
   end
 
