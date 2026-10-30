@@ -1,13 +1,13 @@
 class Xfr < Formula
   desc "Modern network bandwidth testing with TUI - iperf3 replacement"
   homepage "https://github.com/lance0/xfr"
-  version "0.12.1"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/lance0/xfr/releases/download/v#{version}/xfr-aarch64-apple-darwin.tar.gz"
-      sha256 "1693e442064f2c78c04afd40da8655138c807848da413834bbc695f36435ec94"
+      sha256 "d7a81826e0d2cbb15cfcd27c3d1eb32fd2d3f166850adbeeb2c05fdcd9beeebd"
     end
     on_intel do
       # No pre-built binary for Intel Mac - install from crate
@@ -18,11 +18,11 @@ class Xfr < Formula
   on_linux do
     on_intel do
       url "https://github.com/lance0/xfr/releases/download/v#{version}/xfr-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1bb65cf815c7d39fee5f034106579053649abda37856df6e050fc93333aee83d"
+      sha256 "8b0c1747c2b1611395292715fd3fcde302eae2f11ae4bddc2f2a00c08501351c"
     end
     on_arm do
       url "https://github.com/lance0/xfr/releases/download/v#{version}/xfr-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "98fc3d28375d206e09ac628fd5c72c85f1f6c86f4f48d78ea0557cd90a1d2762"
+      sha256 "7f67fc3298c24c0fd52fd9cfc1d466f581cdcf423b318555172c0e15f5753bdf"
     end
   end
 
